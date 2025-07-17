@@ -111,11 +111,24 @@ Project explanation and comparison of different approaches is available in the P
 
 ## License & Credits
 
-- **YOLOv8** by [Ultralytics](https://github.com/ultralytics/ultralytics)
 - All data collected and annotated manually by the project author.
 - No proprietary or paid data has been used.
 
 ---
+
+## Usage
+
+Follow the steps below to train the model and run inference:
+
+---
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/tree-detection-yolov8.git
+cd tree-detection-yolov8
+```
+
 
 ## Contact
 
