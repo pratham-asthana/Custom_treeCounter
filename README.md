@@ -1,10 +1,10 @@
-# 🌳 Tree Detection and Counting using YOLOv8
+# Tree Detection and Counting using YOLOv8
 
 This project presents a complete AI pipeline for detecting and counting **individual trees** in images using the **YOLOv8** object detection model. Given the unavailability of a suitable public dataset, all image data was **manually collected and annotated**, ensuring precision and relevance to the task.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 ├── .git/                        # Git version control
@@ -32,7 +32,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 
 ---
 
-## 🧠 Objective
+## Objective
 
 - Detect individual trees in group images from a front-facing view.
 - Automatically count the number of trees using bounding box detection.
@@ -40,7 +40,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 
 ---
 
-## 📦 Data Collection & Annotation
+## Data Collection & Annotation
 
 - **Manual Collection**: All images were gathered manually from online sources. No public dataset exists for this specific tree detection and counting task.
 - **Annotation**: Each image was labeled using bounding boxes to identify **every visible tree**.
@@ -49,7 +49,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 
 ---
 
-## 🚀 Model Training (Approach 2 - Used in this Repository)
+## Model Training (Approach 2 - Used in this Repository)
 
 | Detail              | Description                                      |
 |---------------------|--------------------------------------------------|
@@ -61,7 +61,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 | Augmentation        | Applied during training                          |
 | Loss                | Minimized effectively even with limited data     |
 
-### ✅ Output:
+### Output:
 - Accurate detection and bounding boxes for **individual trees**.
 - Correct **counting of trees** in images.
 - Output images and results saved in the `runs/` directory.
@@ -69,7 +69,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 
 ---
 
-## 📈 Limitations
+## Limitations
 
 - **Data Availability**: No publicly available dataset with tree group images.
 - **Manual Annotation**: Labeling each image is time-consuming.
@@ -78,7 +78,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 
 ---
 
-## 🔧 Improvements Planned
+## Improvements Planned
 
 - Expand the dataset with more varied group-tree images.
 - Train on **YOLOv8m** with a higher VRAM GPU for better results.
@@ -87,13 +87,13 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 
 ---
 
-## 📎 Documentation
+## Documentation
 
 Project explanation and comparison of different approaches is available in the PowerPoint inside the [`documentation/`](documentation/) folder.
 
 ---
 
-## 🛠️ Scripts and Tools
+## Scripts and Tools
 
 - `data_splitter.py` – Randomly splits the dataset into train/val sets.
 - `rename.py` – Utility for renaming files consistently.
@@ -101,7 +101,7 @@ Project explanation and comparison of different approaches is available in the P
 
 ---
 
-## 🧠 Model Weights
+## Model Weights
 
 - `yolov8n-oiv7.pt` – Trained YOLOv8n model on custom data.
 - `yolov8m-oiv7.pt` – Trained YOLOv8m model (better accuracy, higher resource requirement).
@@ -109,7 +109,7 @@ Project explanation and comparison of different approaches is available in the P
 
 ---
 
-## 🧾 License & Credits
+## License & Credits
 
 - **YOLOv8** by [Ultralytics](https://github.com/ultralytics/ultralytics)
 - All data collected and annotated manually by the project author.
@@ -117,6 +117,6 @@ Project explanation and comparison of different approaches is available in the P
 
 ---
 
-## 📬 Contact
+## Contact
 
 For any questions, feel free to raise an issue or connect via [GitHub](https://github.com/pratham-asthana).
