@@ -1,0 +1,9 @@
+ultralytics==8.0.197       
+opencv-python==4.10.0.82   
+numpy==1.24.4              
+matplotlib==3.7.1         
+pandas==2.0.3
+seaborn==0.12.2            
+ipython==8.12.2            
+jupyter==1.0.0                        
+scikit-learn==1.2.2       
