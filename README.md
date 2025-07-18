@@ -34,7 +34,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 
 ## Objective
 
-- Detect individual trees in group images from a front-facing view.
+- Detect individual trees in images with multiple trees from a front-facing view.
 - Automatically count the number of trees using bounding box detection.
 - Leverage a lightweight and real-time object detection model (YOLOv8).
 
@@ -47,19 +47,18 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 - **Format**: Annotations were prepared in YOLO format (txt files with normalized coordinates).
 - **Dataset Size**: 113 images divided into training and validation (80:20).
 
-![Sample](label_samples/label1.png)
+![Sample](label_samples/label2.png)
 ---
 
-## Model Training (Approach 2 - Used in this Repository)
+## Model Training 
 
 | Detail              | Description                                      |
 |---------------------|--------------------------------------------------|
-| Model Variant       | YOLOv8n and YOLOv8m (Ultralytics)                |
+| Model Variant       | YOLOv8n                                          |
 | Pretrained Weights  | Used for fine-tuning                             |
 | Epochs              | 100                                              |
-| Input Format        | YOLOv8 (images + label text files)              |
+| Input Format        | YOLOv8 (images + label text files)               |
 | Dataset Split       | 80% training, 20% validation                     |
-| Augmentation        | Applied during training                          |
 | Loss                | Minimized effectively even with limited data     |
 
 ### Output:
@@ -68,6 +67,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 - Output images and results saved in the `runs/` directory.
 - Sample output: `sample6_annotated.jpg`
 
+![Sample](output_images_samples/output1.png)
 ---
 
 ## Limitations
