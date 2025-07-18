@@ -7,26 +7,26 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 ## Project Structure
 
 ```bash
-├── .git/                        # Git version control
-├── dataset/                    # Custom labeled dataset
-│   ├── images/                 # Manually collected tree images
-│   └── labels/                 # Corresponding YOLO-format annotations
-├── documentation/             # Includes project documentation (PPT)
+├── .git/                        
+├── dataset/                    
+│   ├── images/                 
+│   └── labels/                 
+├── documentation/             
 │   └── Tree Detection and Counting.pptx
-├── exported data/             # Processed/exported results (if any)
-├── raw_data(images)/          # Raw unprocessed tree images
-├── runs/                      # YOLO training logs and model outputs
-├── test images/               # Images used for model inference
-├── .gitattributes             # Git config file
-├── data.yaml                  # Dataset config for YOLOv8 training
-├── data_splitter.py          # Script to split dataset into train/val
-├── rename.py                 # Script for renaming/preprocessing
-├── model.ipynb               # Jupyter notebook for training & inference
-├── sample6_annotated.jpg     # Example annotated output image
-├── yolov8n.pt                # Base YOLOv8n model weights
-├── yolov8n-oiv7.pt           # Trained YOLOv8n weights on custom data
-├── yolov8m-oiv7.pt           # Trained YOLOv8m weights on custom data
-├── README.md                 # Project documentation (this file)
+├── exported data/            
+├── raw_data(images)/         
+├── runs/                      
+├── test images/               
+├── .gitattributes             
+├── data.yaml                  
+├── data_splitter.py          
+├── rename.py                 
+├── model.ipynb               
+├── sample6_annotated.jpg     
+├── yolov8n.pt                
+├── yolov8n-oiv7.pt          
+├── yolov8m-oiv7.pt           
+├── README.md                
 ```
 
 
