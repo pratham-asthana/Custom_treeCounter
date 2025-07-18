@@ -1,6 +1,6 @@
 # Tree Detection and Counting using YOLOv8
 
-This project presents a complete AI pipeline for detecting and counting **individual trees** in images using the **YOLOv8** object detection model. Given the unavailability of a suitable public dataset, all image data was **manually collected and annotated**, ensuring precision and relevance to the task.
+This project presents a complete AI pipeline for detecting and counting **individual trees** in images using the custom trained **YOLOv8**  model. Given the unavailability of a suitable public dataset, all image data was **manually collected and annotated**, ensuring precision and relevance to the task.
 
 ---
 
