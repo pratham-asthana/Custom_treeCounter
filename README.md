@@ -46,7 +46,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 - **Annotation**: Each image was labeled using bounding boxes to identify **every visible tree**.
 - **Format**: Annotations were prepared in YOLO format (txt files with normalized coordinates).
 - **Dataset Size**: 113 images divided into training and validation (80:20).
-
+![Sample](label_samples/Screenshot 2025-07-18 103647.png)
 ---
 
 ## Model Training (Approach 2 - Used in this Repository)
@@ -125,7 +125,7 @@ Follow the steps below to train the model and run inference:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tree-detection-yolov8.git
+git clone https://github.com/pratham-asthana/tree-detection-yolov8.git
 cd tree-detection-yolov8
 ```
 
