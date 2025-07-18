@@ -47,7 +47,7 @@ This project presents a complete AI pipeline for detecting and counting **indivi
 - **Format**: Annotations were prepared in YOLO format (txt files with normalized coordinates).
 - **Dataset Size**: 113 images divided into training and validation (80:20).
 
-![Sample](label_samples/Screenshot 2025-07-18 103647.png)
+![Sample](label_samples/label1.png)
 ---
 
 ## Model Training (Approach 2 - Used in this Repository)
